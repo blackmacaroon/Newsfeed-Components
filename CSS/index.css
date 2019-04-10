@@ -30,10 +30,27 @@
   position: fixed;
   top: 0;
   z-index: 2;
+  animation-name: test;
+  animation-duration: 10s;
+  animation-delay: 2s;
 }
 .header h1 {
   margin: 0;
   font-size: 48px;
+}
+@keyframes test {
+  0% {
+    background-color: green;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: darkgreen;
+  }
 }
 .menu-button {
   position: absolute;
